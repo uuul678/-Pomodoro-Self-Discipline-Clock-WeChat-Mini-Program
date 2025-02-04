@@ -1,0 +1,10 @@
+<!--pages/gy.wxml-->
+
+ <view class="title" style="margin-top: 150rpx;">作者信息</view>
+ <view wx:for="{{imgarray}}">
+  
+  <view class="imagelayout">
+  <image src="{{src}}" mode="{{item.mode}}"></image>
+  </view>
+
+ </view>

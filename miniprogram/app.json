@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/chengjiu/chengjiu",
+    "pages/gy/gy"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#E7624F",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "计时首页",
+        "iconPath": "./images/jishi2.png",
+        "selectedIconPath": "./images/jishi.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "备忘录",
+        "iconPath": "./images/tongji2.png",
+        "selectedIconPath": "./images/tongji.png"
+      },
+      {
+        "pagePath": "pages/chengjiu/chengjiu",
+        "text": "成就",
+        "iconPath": "./images/chengjiuhui1.png",
+        "selectedIconPath": "./images/chengjiuhei.png"
+      },
+      {
+        "pagePath": "pages/gy/gy",
+        "text": "关于",
+        "iconPath": "./images/guanyu.png",
+        "selectedIconPath": "./images/guanyu1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

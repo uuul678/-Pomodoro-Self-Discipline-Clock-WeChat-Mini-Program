@@ -1,0 +1,15 @@
+<!--logs.wxml-->
+<view class='box'>
+  <view class='title'>文件操作</view>
+  <image src='{{imgPath}}'></image>
+  <view class='btnLayout'>
+    <button bindtap='openFile'>打开文件</button>
+    <button bindtap='saveFile'>保存文件</button>
+  </view>
+  <view class='btnLayout'>
+    <button bindtap='getSavedFileInfo'>文件信息</button> <button bindtap='removedSavedFile'>删除文件</button>
+  </view>
+  <view class='fileInfo' hidden='{{hidden}}'>
+    <text>{{msg}}</text>
+  </view>
+</view>

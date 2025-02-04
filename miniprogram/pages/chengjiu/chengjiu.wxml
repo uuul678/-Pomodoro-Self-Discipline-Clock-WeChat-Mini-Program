@@ -1,0 +1,10 @@
+<!--pages/chengjiu.wxml-->
+<view class="box">
+<view class='title'>成就展示</view>
+<view>
+<button class="btn" bindtap="chooseimage">获取图片</button>
+<image mode="scaleToFill" src="{{imgPath}}"></image>
+<button class="btn" bindtap="chooseVideo">获取视频</button>
+<video class="video" src="{{videoPath}}"></video>
+</view>
+</view>

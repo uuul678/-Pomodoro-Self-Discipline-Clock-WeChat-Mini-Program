@@ -1,0 +1,11 @@
+/* pages/gy.wxss */
+.imglayout{
+  text-align: center;
+  margin: 5px 0;
+}
+
+image{
+  width: 350px;
+  height: 400px;
+  background-color: white;
+}
