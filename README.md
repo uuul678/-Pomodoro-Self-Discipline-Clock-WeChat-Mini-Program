@@ -39,9 +39,13 @@ javascript
 // Canvas animation logic snippet
 
 drawActive() {
+ 
   const angle = 1.5 + 2*(totalTime - remaining)/totalTime;
+  
   ctx
+
 .arc(centerX, centerY, radius, 1.5*Math.PI, angle*Math.PI);
+
 }
 
 Tech Stack 💻
@@ -74,6 +78,7 @@ bash
  clone https://github.com/uuul678/-Pomodoro-Self-Discipline-Clock-WeChat-Mini-Program.git
 
 2. Open WeChat DevTools -> Import Project ->
+
  Select project directory
 
 3. Configure AppID in app.json (Test account available for development)
@@ -115,9 +120,13 @@ Key Implementations
 Achieved 60fps rendering using optimized interval control:
 
 javascript
+
 setInterval(() => {
+
   const progress = (remainingTime / totalTime) * 2π;
+  
   drawProgressArc(progress);
+
 }, 100);
 
 2. File Management System
@@ -125,13 +134,21 @@ setInterval(() => {
 Implemented persistent storage with WeChat APIs:
 
 javascript
+
 wx.saveFile({
+
   tempFilePath
+
 ,
+
   success(res) {
+  
     console
+
 .log('File saved:', res.savedFilePath);
+
   }
+
 });
 
 3. Responsive Layout
@@ -139,7 +156,9 @@ wx.saveFile({
 Dynamic UI adaptation using rpx units and system metrics:
 
 javascript
+
 const systemInfo = wx.getSystemInfoSync();
+
 const scaleRatio = 750 / systemInfo.windowWidth;
 
 Challenges & Solutions
