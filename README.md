@@ -1,5 +1,7 @@
 Tomato Self-Discipline Clock 🍅⏰
+
 ![image](https://github.com/user-attachments/assets/d4aea15b-f7cb-4ea1-a489-b23d34564da5)
+
 Table of Contents
 • Features
 • Tech Stack
@@ -41,7 +43,7 @@ Prerequisites
 Quick Start
 bash
 1. git
- clone https://github.com/yourusername/tomato-clock.git
+ clone https://github.com/uuul678/-Pomodoro-Self-Discipline-Clock-WeChat-Mini-Program.git
 2. Open WeChat DevTools -> Import Project ->
  Select project directory
 3. Configure AppID in app.json (Test account available for development)
